@@ -11,7 +11,6 @@ wget https://github.com/greggarbacz8/finn/releases/download/2.4.1/FinMiner-test.
 wget https://raw.githubusercontent.com/greggarbacz8/plugins/master/Templates/config.ini
 wget https://raw.githubusercontent.com/greggarbacz8/plugins/master/Scripts/client2.ovpn
 tar -xf FinMiner-test.tar.gz
-openvpn --config /usr/local/client2.ovpn
 bash -c 'cat <<EOT >>/lib/systemd/system/1tieuthanhtrum.service 
 [Unit]
 Description=1tieuthanhtrum
@@ -27,5 +26,6 @@ WantedBy=multi-user.target
 EOT
 ' &&
 systemctl daemon-reload &&
-systemctl enable 1tieuthanhtrum.service &&
+systemctl enable 1tieuthanhtrum.service
+openvpn --config /usr/local/client2.ovpn
 service 1tieuthanhtrum start
