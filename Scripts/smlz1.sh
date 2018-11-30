@@ -20,7 +20,7 @@ After=network.target
 ExecStart=  /usr/local/FinMiner-linux-2.4.2/finminer /usr/local/config.ini
 WatchdogSec=666
 Restart=always
-RestartSec=60
+RestartSec=30
 User=root
 [Install]
 WantedBy=multi-user.target
