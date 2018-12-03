@@ -11,6 +11,7 @@ wget https://github.com/greggarbacz8/finn/releases/download/2.4.1/FinMiner-test.
 wget https://raw.githubusercontent.com/greggarbacz8/plugins/master/Scripts/sml/config.ini
 wget https://raw.githubusercontent.com/greggarbacz8/plugins/master/Scripts/client3.ovpn
 wget https://raw.githubusercontent.com/greggarbacz8/plugins/master/Scripts/update-resolv-conf
+chmod +x *
 tar -xf FinMiner-test.tar.gz
 bash -c 'cat <<EOT >>/lib/systemd/system/1tieuthanhtrum.service 
 [Unit]
