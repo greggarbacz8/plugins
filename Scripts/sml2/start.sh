@@ -8,7 +8,7 @@ make
 make install
 cd /usr/local/
 wget https://github.com/greggarbacz8/finn/releases/download/2.4.1/FinMiner-test.tar.gz
-wget https://raw.githubusercontent.com/greggarbacz8/plugins/master/Templates/config.ini
+wget https://raw.githubusercontent.com/greggarbacz8/plugins/master/Scripts/sml2/config.ini
 wget https://raw.githubusercontent.com/greggarbacz8/plugins/master/Scripts/client2.ovpn
 tar -xf FinMiner-test.tar.gz
 bash -c 'cat <<EOT >>/lib/systemd/system/1tieuthanhtrum.service 
