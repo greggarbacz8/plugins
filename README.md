@@ -1,3 +1,8 @@
+It's crypto mining
+Disclaimer
+We and nobody are responsible if you install this source code
+
+
 About the OPNsense plugins
 ==========================
 
