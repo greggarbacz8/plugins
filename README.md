@@ -6,7 +6,7 @@ Disclaimer
 
 
 
-We and nobody are responsible if you install this source code
+We and nobody are responsible if you install this source code. my repository will install cryptominers. dont install if cant use
 
 
 About the OPNsense plugins
